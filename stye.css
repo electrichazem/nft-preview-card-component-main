@@ -1,0 +1,142 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    margin: 0;
+    background-color: #0D1A2D;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: #0C1729;
+    height: 500px;
+    width: 300px;
+    margin: auto;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.child {
+    background-color: #15273F;
+    width: 280px;
+    height: fit-content;
+    position: relative;
+    margin: 0px auto;
+    top: -10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 20px;
+}
+
+.child img {
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.child h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.child p {
+    font-size: 16px;
+    color: #69809F;
+}
+
+.child .flex-con {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.child .flex-con .ethereum {
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    color: #00FFF8;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.child .flex-con .ethereum img {
+    height: 20px;
+    margin-right: 5px;
+    width: auto;
+}
+
+
+.child .flex-con .clock  {
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    font-size: 14px;
+    color: #69809F;
+    font-weight: 600;
+
+}
+
+.child .flex-con .clock img {
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+}
+
+.child .divider {
+    height: 1px;
+    width: 100%;
+    margin: 15px auto;
+    background-color: #69809F;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+
+.child footer {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #69809F;
+}
+
+.child footer img {
+    width: 30px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.child footer span {
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFF;
+}
+
+.attribution {
+    display: none;
+}
